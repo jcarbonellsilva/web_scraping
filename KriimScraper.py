@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 22:22:58 2022
-
-@author: Carlos
-"""
 import requests
 from bs4 import BeautifulSoup
-import re
+import pandas as pd
 import time
 import json
 
@@ -31,7 +26,7 @@ rawProductLinks = soup.find_all('a', attrs={'class': "product-thumb-href"})
 productLinks = [link['href'] for link in rawProductLinks]
 # aquí me quedo sólo con los valores únicos, ya que los enlaces se leen dos veces
 productLinks = list(set(productLinks))
-
+productFinal = []
 # Ahora aquí hay que iterar para entrar en la info de cada producto
 for product in productLinks[:5]:
     # como los enlaces no están completos
@@ -41,22 +36,59 @@ for product in productLinks[:5]:
     time.sleep(3)
     productSoup = BeautifulSoup(productRequest.content, 'lxml')
     # me bajo los atributos del producto según tag y clase
-    name = productSoup.find('h1', attrs={'class': 'product-item-caption-title'})
-    name = name.get_text()
+    try:
+        name = productSoup.find('h1', attrs={'class': 'product-item-caption-title'})
+        name = name.get_text()
+    except:
+        name = "unknown"
     
-    subtitle = productSoup.find('h3', attrs={'class': 'product-item-subtitle'})
-    subtitle = subtitle.get_text()
+    try:
+        subtitle = productSoup.find('h3', attrs={'class': 'product-item-subtitle'})
+        subtitle = subtitle.get_text()
+    except:
+       subtitle = "unknown"
+       
+    try:
+        price = productSoup.find('span', attrs={'class': 'money', 'itemprop': 'price'})
+        price = price.get_text()
+    except:
+        price = "not available"
     
-    price = productSoup.find('span', attrs={'class': 'money', 'itemprop': 'price'})
-    price = price.get_text()
-    
-    # Busco en product reviews
-    productReviews = productSoup.find('div', attrs={'id': 'shopify-product-reviews'})
-    # Aquí el problema es que las reviews
-    # están en un script de js con formato JSON-LD
-    reviewScripts = productReviews.find('script', type='application/ld+json').string
-    # print(reviewScripts)
-    data = json.loads(reviewScripts)
-    # print(data['ratingValue'])
-    ratingValue = data['ratingValue']
-    numReviews = data['reviewCount']
+    try:
+        # Busco en product reviews
+        productReviews = productSoup.find('div', attrs={'id': 'shopify-product-reviews'})
+        # Aquí el problema es que las reviews
+        # están en un script de js con formato JSON-LD
+        reviewScripts = productReviews.find('script', type='application/ld+json').string
+        data = json.loads(reviewScripts)
+        ratingValue = data['ratingValue']
+        numReviews = data['reviewCount']
+    except:
+        ratingValue = "unknown"
+        numReviews = "unknown"
+
+# =============================================================================
+#     try:
+#         ingredients = productSoup.find('div', attrs={"class": "faq-content",
+#                                                      "style": "display: block;"})
+#         print(ingredients)
+#     except:
+#         ingredients = "not available"
+# =============================================================================
+
+
+    products = {
+        'site': "kriim",
+        'name': name,
+        'use': subtitle,
+        'current_price': price,
+        'current_discount': "not available",
+        'review': ratingValue,
+        'reviews_number': numReviews
+        
+    }
+    productFinal.append(products)
+
+df = pd.DataFrame(productFinal)
+df.to_csv('kriimTable_test.csv')
+print('saved to file')
