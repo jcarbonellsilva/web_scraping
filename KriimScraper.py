@@ -28,7 +28,7 @@ productLinks = [link['href'] for link in rawProductLinks]
 productLinks = list(set(productLinks))
 productFinal = []
 # Ahora aquí hay que iterar para entrar en la info de cada producto
-for product in productLinks[:5]:
+for product in productLinks:
     # como los enlaces no están completos
     # hay que concatenar el dominio con el string de la lista
     productUrl = 'https://kriim.com' + product
