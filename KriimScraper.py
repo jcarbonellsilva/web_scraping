@@ -46,7 +46,7 @@ for product in productLinks:
         subtitle = productSoup.find('h3', attrs={'class': 'product-item-subtitle'})
         subtitle = subtitle.get_text()
     except:
-       subtitle = "unknown"
+       subtitle = "no_use"
        
     try:
         price = productSoup.find('span', attrs={'class': 'money', 'itemprop': 'price'})
@@ -63,32 +63,23 @@ for product in productLinks:
         data = json.loads(reviewScripts)
         ratingValue = data['ratingValue']
         numReviews = data['reviewCount']
+        current_discount = data['lowPrice']
     except:
         ratingValue = "unknown"
         numReviews = "unknown"
-
-# =============================================================================
-#     try:
-#         ingredients = productSoup.find('div', attrs={"class": "faq-content",
-#                                                      "style": "display: block;"})
-#         print(ingredients)
-#     except:
-#         ingredients = "not available"
-# =============================================================================
-
+        current_discount = "no_discount"
 
     products = {
         'site': "kriim",
         'name': name,
         'use': subtitle,
         'current_price': price,
-        'current_discount': "not available",
+        'current_discount': current_discount,
         'review': ratingValue,
-        'reviews_number': numReviews
-        
+        'opinions': numReviews
     }
     productFinal.append(products)
 
 df = pd.DataFrame(productFinal)
-df.to_csv('kriimTable_test.csv')
+df.to_csv('kriimTable.csv')
 print('saved to file')
