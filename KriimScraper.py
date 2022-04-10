@@ -33,7 +33,7 @@ for product in productLinks:
     # hay que concatenar el dominio con el string de la lista
     productUrl = 'https://kriim.com' + product
     productRequest = requests.get(productUrl, headers=headers)
-    time.sleep(3)
+    # time.sleep(3)
     productSoup = BeautifulSoup(productRequest.content, 'lxml')
     # me bajo los atributos del producto según tag y clase
     try:
@@ -46,7 +46,7 @@ for product in productLinks:
         subtitle = productSoup.find('h3', attrs={'class': 'product-item-subtitle'})
         subtitle = subtitle.get_text()
     except:
-       subtitle = "no_use"
+       subtitle = "unknown"
        
     try:
         price = productSoup.find('span', attrs={'class': 'money', 'itemprop': 'price'})
@@ -63,11 +63,11 @@ for product in productLinks:
         data = json.loads(reviewScripts)
         ratingValue = data['ratingValue']
         numReviews = data['reviewCount']
-        current_discount = data['lowPrice']
+        current_discount = data['itemReviewed']['offers']['lowPrice']
     except:
         ratingValue = "unknown"
         numReviews = "unknown"
-        current_discount = "no_discount"
+        current_discount = "no discount"
 
     products = {
         'site': "kriim",
@@ -77,6 +77,7 @@ for product in productLinks:
         'current_discount': current_discount,
         'review': ratingValue,
         'opinions': numReviews
+        
     }
     productFinal.append(products)
 
