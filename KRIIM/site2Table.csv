@@ -1,68 +1,69 @@
-;site;name;use;current_price;current_discount;review;opinions;images
-0;site 2;Spectacular Night Mask;Mascarilla de noche revitalizante con efecto iluminador;24;26;5;75;non available
-1;site 2;Raw Argan Oil;Aceite de argán crudo de primera pensada en frío;35;32;1;28;non available
-2;site 2;Facial Konjac Sponge - Sensitive skin;Esponja facial Konjac - Piel sensible;54;56;5;8;non available
-3;site 2;Glow Vitamin Treatment;Tratamiento iluminador vitamínico para cabello y cuerpo;65;58;1;207;non available
-4;site 2;Herbal Shampoo;Champú sólido - Neutro;61;70;0;80;non available
-5;site 2;Multi-Peptide Serum;Sérum multi-péptido que reduce las arrugas;9;9;1;22;non available
-6;site 2;Pomelo Extra Nourishing Gel;Gel de baño extra-nutritivo de pomelo;19;17;0;8;non available
-7;site 2;Tea Tree Enriched Soap;Jabón con aceite de oliva y árbol de té;28;27;5;7;non available
-8;site 2;Hyaluronic Cleanser;Limpiador con ácido hialurónico para pieles secas y mixtas;62;68;0;1;non available
-9;site 2;Recover Castor Oil;Aceite de ricino nutritivo y anti-caída para cabello;52;49;0;19;non available
-10;site 2;Niacinamide Cleanser;Limpiador con niacinamida para pieles grasas;45;48;2;4;non available
-11;site 2;Mini Ginger Balance Shampoo;Mini champú equilibrante de jengibre para pelos grasos;64;;4;1;non available
-12;site 2;Argan Enriched Soap;Jabón con aceite de coco y argán;56;63;0;18;non available
-13;site 2;Facial Konjac Sponge - Oily skin;Esponja facial Konjac - Piel grasa;60;51;3;7;non available
-14;site 2;Coco Shampoo;Champú sólido - Cabello seco;15;15;5;25;non available
-15;site 2;Sachet of sisal;Saquito de Sisal;30;27;1;5;non available
-16;site 2;All-Over Blemish solution;Crema reguladora para piel grasa y mixta;49;no discount;3;unknown;non available
-17;site 2;Loss of Elasticity Skin Renewer;Crema antienvejecimiento para piel seca y sensible;9;10;4;1;non available
-18;site 2;Niacinamide Serum;Sérum de niacinamida para pieles grasas;21;20;1;4;non available
-19;site 2;Purifying facial cleanser;Gel limpiador facial;32;32;1;1;non available
-20;site 2;Age Delay Eye Concentrate;Concentrado AGE-DELAY para el contorno de ojos;9;9;5;1;non available
-21;site 2;Bamboo Hand Treatment;Tratamiento de bambú para manos y uñas;50;45;3;6;non available
-22;site 2;Niacinamide Cream;Crema con niacinamida para pieles grasas;45;40;1;6;non available
-23;site 2;Whitening Charcoal Toothpaste;Pasta de dientes blanqueante con carbón activo;51;54;2;21;non available
-24;site 2;Intense Orange Lotion;Loción corporal de naranja con cafeína;22;25;3;128;non available
-25;site 2;Carota Sativa Cleanser;Limpiador con carota sátiva ideal para pieles sensibles;15;13;0;3;non available
-26;site 2;Matcha Tea Parfum;Perfume sólido Matcha Tea;46;50;4;35;non available
-27;site 2;Mandarin Deodorant;Desodorante de mandarina;34;34;5;130;non available
-28;site 2;Charcoal Deodorant;Desodorante de carbón activado;50;45;4;19;non available
-29;site 2;Activated Charcoal Enriched Soap;Jabón con aceite de oliva y carbón activo;55;49;5;10;non available
-30;site 2;Multi Vitamin Recovery Hair Mask;Mascarilla capilar multivitamínica reparadora;10;10;0;10;non available
-31;site 2;Ocean Parfum;Perfume sólido Ocean;48;42;2;14;non available
-32;site 2;Peach Parfum;Perfume sólido Peach;31;30;0;7;non available
-33;site 2;Glycolic Acid 4% + AHA 1%;Exfoliante facial para reducir manchas;59;50;0;21;non available
-34;site 2;Ginger Balance Shampoo;Champú equilibrante de jengibre para cabellos grasos;12;12;0;16;non available
-35;site 2;Anti Dark Circles Peptide 4% + Caffeine;Sérum reductor de ojeras y bolsas;62;66;5;58;non available
-36;site 2;Shea Butter Enriched Soap;Jabón con aceite de oliva y manteca de karité;45;44;3;7;non available
-37;site 2;Pure HA Balance Lotion;Crema facial ultra-ligera para pieles mixtas y grasas;48;39;3;52;non available
-38;site 2;Neck & Decolletage Wrinkle Perfil;Rellenador de arrugas para cuello y escote;8;no discount;1;unknown;non available
-39;site 2;Anti-Acne Serum;Sérum Anti-Acné;60;68;4;38;non available
-40;site 2;Rosehip Enriched Soap;Jabón con aceite de oliva y aceite de rosa mosqueta;18;20;4;37;non available
-41;site 2;Chocolate Shampoo;Champú sólido - Cabello dañado;63;62;1;16;non available
-42;site 2;Facial Konjac Sponge - Neutral;Esponja facial Konjac - Neutra;62;57;4;9;non available
-43;site 2;Natural Micro Dermabrasion Peel;Exfoliante Facial Microdermoabrasión;44;no discount;1;unknown;non available
-44;site 2;Anti-Frizz Conditioner;Acondicionador Sólido;40;38;3;73;non available
-45;site 2;Intense Skin Repair Oil;Intense Skin Repair Oil;27;29;3;1;non available
-46;site 2;Purifying Cleansing Foam;Espuma limpiadora hidratante sin sulfatos;29;30;4;25;non available
-48;site 2;Pomegranate & Vervain Conditioner;Acondicionador con granada y verbena;12;10;5;15;non available
-49;site 2;Carota Sativa Cream;Crema con carota sativa ideal para pieles sensibles;40;43;1;14;non available
-50;site 2;Antioxidant Glow Mask;Mascarilla facial antioxidante e iluminadora;49;54;3;18;non available
-51;site 2;Jojoba Cleansing Balm;Bálsamo limpiador calmante con aceite de Jojoba;29;26;4;25;non available
-52;site 2;Almond Shell & Coffee Scrub;Exfoliante corporal a base de café y cáscara de almendra;16;13;0;10;non available
-53;site 2;Facial Konjac Sponge - Mixed skin;Esponja facial Konjac - Piel mixta;32;32;1;3;non available
-54;site 2;Reusable Bamboo Pads;Discos de Bambú Reutilizables;64;53;4;8;non available
-55;site 2;Super Rich Multi - Hydratator;Crema nutritiva para piel seca;7;no discount;0;unknown;non available
-56;site 2;AHA Shiitake Toner;Tónico anti-machas y unificador del tono;27;22;0;12;non available
-57;site 2;Hyaluronic Serum;Sérum con ácido hialurónico para pieles secas y mixtas;16;16;0;11;non available
-58;site 2;Papaya Recovery Shampoo;Champú reparador de papaya para todo tipo de cabello;35;40;2;23;non available
-59;site 2;Hyaluronic Cream;Crema con ácido hialurónico para pieles secas y mixtas;26;28;2;11;non available
-60;site 2;Calendula Enriched Soap;Jabón con aceite de oliva y caléndula;41;37;4;6;non available
-61;site 2;Pomelo Shampoo;Champú sólido - Cabello graso;51;48;5;49;non available
-62;site 2;Carota Sativa Serum;Sérum con carota sátiva ideal para pieles sensibles;63;55;1;3;non available
-63;site 2;Age Cancellation Booster;Concentrado antiedad piel grasa o mixta;30;33;3;2;non available
-64;site 2;Vitamin C Booster;Sérum concentrado de vitamina C iluminador y antioxidante;18;18;2;22;non available
-65;site 2;Hydrating Dew Toner;Tónico Facial Hidratante;12;10;5;1;non available
-66;site 2;Lip Rescue Balm;Bálsamo labial nutritivo y regenerador;54;47;4;17;non available
-67;site 2;Age Defence Broad Spectrum Remedy;Crema protectora frente al envejecimiento y las manchas de la piel;43;44;2;2;non available
+,site,name,use,current_price,current_discount,review,opinions,images
+0,site 2,Facial Konjac Sponge - Mixed skin,Esponja facial Konjac - Piel mixta,"€6,50",4.46,5.0,3,non available
+1,site 2,Multi-Peptide Serum,Sérum multi-péptido que reduce las arrugas,"€31,50",30.0,4.636363636363637,22,non available
+2,site 2,Facial Konjac Sponge - Sensitive skin,Esponja facial Konjac - Piel sensible,"€6,50",4.16,4.875,8,non available
+3,site 2,Raw Argan Oil,Aceite de argán crudo de primera pensada en frío,"€24,00",17.21,4.714285714285714,28,non available
+4,site 2,Pomegranate & Vervain Conditioner,Acondicionador con granada y verbena,"€21,00",14.7,4.266666666666667,15,non available
+5,site 2,Rosehip Enriched Soap,Jabón con aceite de oliva y aceite de rosa mosqueta,"€6,50",3.57,4.027027027027027,37,non available
+6,site 2,Almond Shell & Coffee Scrub,Exfoliante corporal a base de café y cáscara de almendra,"€21,00",15.71,4.8,10,non available
+7,site 2,Ocean Parfum,Perfume sólido Ocean,"€18,50",13.88,4.642857142857143,14,non available
+8,site 2,Calendula Enriched Soap,Jabón con aceite de oliva y caléndula,"€6,50",3.57,4.833333333333333,6,non available
+9,site 2,Multi Vitamin Recovery Hair Mask,Mascarilla capilar multivitamínica reparadora,"€26,50",18.55,4.4,10,non available
+10,site 2,Hyaluronic Cleanser,Limpiador con ácido hialurónico para pieles secas y mixtas,"€9,00",8.0,4.0,1,non available
+11,site 2,Age Delay Eye Concentrate,Concentrado AGE-DELAY para el contorno de ojos,"€53,95",53.95,5.0,1,non available
+12,site 2,Tea Tree Enriched Soap,Jabón con aceite de oliva y árbol de té,"€6,50",4.16,4.714285714285714,7,non available
+13,site 2,Chocolate Shampoo,Champú sólido - Cabello dañado,"€8,50",6.38,4.375,16,non available
+14,site 2,Purifying facial cleanser,Gel limpiador facial,"€29,95",29.95,5.0,1,non available
+15,site 2,Charcoal Deodorant,Desodorante de carbón activado,"€14,50",14.5,4.7894736842105265,19,non available
+16,site 2,Facial Konjac Sponge - Oily skin,Esponja facial Konjac - Piel grasa,"€6,50",6.5,3.7142857142857144,7,non available
+17,site 2,Lip Rescue Balm,Bálsamo labial nutritivo y regenerador,"€9,00",9.0,4.764705882352941,17,non available
+18,site 2,Purifying Cleansing Foam,Espuma limpiadora hidratante sin sulfatos,"€18,00",13.5,4.44,25,non available
+19,site 2,Sachet of sisal,Saquito de Sisal,"€6,50",5.95,4.4,5,non available
+20,site 2,Niacinamide Cleanser,Limpiador con niacinamida para pieles grasas,"€9,00",5.6,4.0,4,non available
+21,site 2,AHA Shiitake Toner,Tónico anti-machas y unificador del tono,"€25,00",24.0,4.5,12,non available
+22,site 2,Peach Parfum,Perfume sólido Peach,"€18,50",12.38,4.428571428571429,7,non available
+23,site 2,Glycolic Acid 4% + AHA 1%,Exfoliante facial para reducir manchas,"€26,00",27.0,4.523809523809524,21,non available
+24,site 2,Whitening Charcoal Toothpaste,Pasta de dientes blanqueante con carbón activo,"€8,50",4.77,4.714285714285714,21,non available
+25,site 2,Anti-Frizz Conditioner,Acondicionador Sólido,"€9,50",9.5,4.219178082191781,73,non available
+26,site 2,Recover Castor Oil,Aceite de ricino nutritivo y anti-caída para cabello,"€27,50",19.25,4.631578947368421,19,non available
+27,site 2,Niacinamide Serum,Sérum de niacinamida para pieles grasas,"€18,00",14.0,4.75,4,non available
+28,site 2,Vitamin C Booster,Sérum concentrado de vitamina C iluminador y antioxidante,"€30,00",20.3,4.318181818181818,22,non available
+29,site 2,Neck & Decolletage Wrinkle Perfil,Rellenador de arrugas para cuello y escote,"€49,95",no discount,unknown,unknown,non available
+30,site 2,Intense Skin Repair Oil,Intense Skin Repair Oil,"€63,95",63.95,5.0,1,non available
+31,site 2,Spectacular Night Mask,Mascarilla de noche revitalizante con efecto iluminador,"€31,00",21.75,4.8933333333333335,75,non available
+32,site 2,Hyaluronic Cream,Crema con ácido hialurónico para pieles secas y mixtas,"€14,00",7.2,4.909090909090909,11,non available
+33,site 2,Argan Enriched Soap,Jabón con aceite de coco y argán,"€6,50",6.5,4.333333333333333,18,non available
+34,site 2,Super Rich Multi - Hydratator,Crema nutritiva para piel seca,"€49,95",no discount,unknown,unknown,non available
+35,site 2,Facial Konjac Sponge - Neutral,Esponja facial Konjac - Neutra,"€6,50",5.95,5.0,9,non available
+36,site 2,Intense Orange Lotion,Loción corporal de naranja con cafeína,"€24,00",16.8,4.5390625,128,non available
+37,site 2,Pomelo Shampoo,Champú sólido - Cabello graso,"€8,50",5.95,4.469387755102041,49,non available
+38,site 2,Activated Charcoal Enriched Soap,Jabón con aceite de oliva y carbón activo,"€6,50",3.57,4.4,10,non available
+39,site 2,Matcha Tea Parfum,Perfume sólido Matcha Tea,"€18,50",16.5,4.485714285714286,35,non available
+40,site 2,Pomelo Extra Nourishing Gel,Gel de baño extra-nutritivo de pomelo,"€16,50",11.96,4.75,8,non available
+41,site 2,Antioxidant Glow Mask,Mascarilla facial antioxidante e iluminadora,"€28,00",15.6,4.666666666666667,18,non available
+42,site 2,Anti-Acne Serum,Sérum Anti-Acné,"€35,00",23.8,4.842105263157895,38,non available
+43,site 2,Ginger Balance Shampoo,Champú equilibrante de jengibre para cabellos grasos,"€19,50",14.21,3.875,16,non available
+44,site 2,Lata para champú sólido,Kriim,"€2,50",1.5,5.0,2,non available
+45,site 2,Glow Vitamin Treatment,Tratamiento iluminador vitamínico para cabello y cuerpo,"€19,00",19.0,4.835748792270532,207,non available
+46,site 2,All-Over Blemish solution,Crema reguladora para piel grasa y mixta,"€49,95",no discount,unknown,unknown,non available
+47,site 2,Hyaluronic Serum,Sérum con ácido hialurónico para pieles secas y mixtas,"€18,00",12.6,4.545454545454546,11,non available
+48,site 2,Coco Shampoo,Champú sólido - Cabello seco,"€8,50",6.38,4.76,25,non available
+49,site 2,Pure HA Balance Lotion,Crema facial ultra-ligera para pieles mixtas y grasas,"€36,00",23.8,4.865384615384615,52,non available
+50,site 2,Age Defence Broad Spectrum Remedy,Crema protectora frente al envejecimiento y las manchas de la piel,"€63,95",63.95,3.0,2,non available
+51,site 2,Reusable Bamboo Pads,Discos de Bambú Reutilizables,"€12,50",7.17,4.5,8,non available
+52,site 2,Shea Butter Enriched Soap,Jabón con aceite de oliva y manteca de karité,"€6,50",5.95,4.142857142857143,7,non available
+53,site 2,Carota Sativa Cleanser,Limpiador con carota sátiva ideal para pieles sensibles,"€9,00",9.0,3.6666666666666665,3,non available
+54,site 2,Herbal Shampoo,Champú sólido - Neutro,"€8,50",8.5,4.675,80,non available
+55,site 2,Carota Sativa Serum,Sérum con carota sátiva ideal para pieles sensibles,"€18,00",9.8,5.0,3,non available
+56,site 2,Hydrating Dew Toner,Tónico Facial Hidratante,"€43,95",43.95,5.0,1,non available
+57,site 2,Niacinamide Cream,Crema con niacinamida para pieles grasas,"€14,00",14.0,5.0,6,non available
+58,site 2,Carota Sativa Cream,Crema con carota sativa ideal para pieles sensibles,"€14,00",9.8,4.714285714285714,14,non available
+59,site 2,Mini Ginger Balance Shampoo,Mini champú equilibrante de jengibre para pelos grasos,"€9,95",,5.0,1,non available
+60,site 2,Age Cancellation Booster,Concentrado antiedad piel grasa o mixta,"€53,95",37.76,5.0,2,non available
+61,site 2,Natural Micro Dermabrasion Peel,Exfoliante Facial Microdermoabrasión,"€36,95",no discount,unknown,unknown,non available
+62,site 2,Jojoba Cleansing Balm,Bálsamo limpiador calmante con aceite de Jojoba,"€29,00",20.3,4.72,25,non available
+63,site 2,Loss of Elasticity Skin Renewer,Crema antienvejecimiento para piel seca y sensible,"€56,95",45.56,5.0,1,non available
+64,site 2,Bamboo Hand Treatment,Tratamiento de bambú para manos y uñas,"€14,50",9.76,5.0,6,non available
+65,site 2,Mandarin Deodorant,Desodorante de mandarina,"€14,50",14.5,4.6923076923076925,130,non available
+66,site 2,Anti Dark Circles Peptide 4% + Caffeine,Sérum reductor de ojeras y bolsas,"€29,50",29.5,4.448275862068965,58,non available
+67,site 2,Papaya Recovery Shampoo,Champú reparador de papaya para todo tipo de cabello,"€19,50",14.62,4.391304347826087,23,non available
