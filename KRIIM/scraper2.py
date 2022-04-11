@@ -33,7 +33,7 @@ for product in productLinks:
     # hay que concatenar el dominio con el string de la lista
     productUrl = 'https://kriim.com' + product
     productRequest = requests.get(productUrl, headers=headers)
-    # time.sleep(3)
+    time.sleep(3)
     productSoup = BeautifulSoup(productRequest.content, 'lxml')
     # me bajo los atributos del producto según tag y clase
     try:
