@@ -5,8 +5,8 @@ import pandas as pd
 import time
 import json
 
-
-url = 'https://kriim.com/collections/all_collections'
+# URL is anonimized in order to preserve the owner's data policy
+url = 'site_url'
 
 productLinks = []
 
@@ -31,7 +31,7 @@ productFinal = []
 for product in productLinks:
     # como los enlaces no están completos
     # hay que concatenar el dominio con el string de la lista
-    productUrl = 'https://kriim.com' + product
+    productUrl = 'site_main' + product
     productRequest = requests.get(productUrl, headers=headers)
     time.sleep(3)
     productSoup = BeautifulSoup(productRequest.content, 'lxml')
