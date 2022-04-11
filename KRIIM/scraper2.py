@@ -5,8 +5,8 @@ import pandas as pd
 import time
 import json
 
-# URL is anonimized in order to preserve the owner's data policy
-url = 'site_url'
+
+url = 'https://kriim.com/collections/all_collections'
 
 productLinks = []
 
@@ -31,9 +31,9 @@ productFinal = []
 for product in productLinks:
     # como los enlaces no están completos
     # hay que concatenar el dominio con el string de la lista
-    productUrl = 'site_main' + product
+    productUrl = 'https://kriim.com' + product
     productRequest = requests.get(productUrl, headers=headers)
-    time.sleep(3)
+    # time.sleep(3)
     productSoup = BeautifulSoup(productRequest.content, 'lxml')
     # me bajo los atributos del producto según tag y clase
     try:
