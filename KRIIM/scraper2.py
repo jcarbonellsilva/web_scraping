@@ -5,6 +5,7 @@ import pandas as pd
 import time
 import json
 
+# Només per a ús totalment personal.
 
 url = 'https://kriim.com/collections/all_collections'
 
