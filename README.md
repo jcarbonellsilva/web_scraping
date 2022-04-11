@@ -15,8 +15,10 @@ Aquest repositori conté 4 arxius:
     <li><strong>FreshlyDataSet.csv</strong> - Conté informació extreta de la pàgina web de Freshly</li>
     <li><strong>images</strong> - Imatges dels productes de Freshly</li>
   </ul>
-  DOI Zenodo: 10.5281/zenodo.6445962
-  Enllaç Zenodo: https://zenodo.org/record/6445962#.YlRpUMhBzcc
-  Enllaç vídeo Google Drive UOC: https://drive.google.com/file/d/16GBpjHfYmwfC7Wq_mEMyXfYKJUV15w8w/view?usp=sharing
+  <ul>
+    <li>DOI Zenodo: 10.5281/zenodo.6445962</li>
+    <li>Enllaç Zenodo: https://zenodo.org/record/6445962#.YlRpUMhBzcc</li>
+    <li>Enllaç vídeo Google Drive UOC: https://drive.google.com/file/d/16GBpjHfYmwfC7Wq_mEMyXfYKJUV15w8w/view?usp=sharing</li>
+  </ul>
 </ul>
 
