@@ -1,6 +1,6 @@
 # Web Scraping de pàgines de bellesa i cosmètica natural
 
-Aquest repositori conté 5 arxius:
+Aquest repositori conté 3 arxius:
 <ul>
   <li><strong>README.md</strong></li>
   <li><strong>Arxiu PDF</strong> - Informe de la Pràctica 1</li>
